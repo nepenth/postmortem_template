@@ -89,6 +89,12 @@
 
 ---
 
+## Open Questions
+
+| **Person**    |  **Question**  |  **Answer**  |
+
+---
+
 ## Action Items
 
 | **Action**                           | **Owner**         | **Due Date**   |
