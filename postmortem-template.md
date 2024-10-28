@@ -1,81 +1,108 @@
 # Postmortem Report: **<Incident Title>**
 
-**Incident Lead:** <Name>  
-**Date:** <Date>  
-**Status:** <Resolved/Unresolved>  
+## Summary
+
+| **Field**                | **Details**                         |
+|--------------------------|--------------------------------------|
+| Incident Summary         | Brief summary of what happened.     |
+| Incident Number          | <Number>                            |
+| Incident Severity        | <Severity Level>                    |
+| Postmortem Date          | <YYYY-MM-DD>                        |
+| War-room Required?       | Yes/No                              |
+| SRE Lead                 | <Name>                              |
+| Developer Lead           | <Name>                              |
+| Incident Management Lead | <Name>                              |
+| Chaos Engineering Preventable? | Yes/No                       |
+| Recording Available?     | Yes/No (Link to recording, if any)  |
+| Postmortem Lead          | <Name>                              |
 
 ---
 
-## Summary (Tl;dr)
-- Brief summary of what happened and the resolution.
-- High-level context (e.g., services affected, failure type).
+## Postmortem Attendees
+
+| **Name**           | **Role**               | **In Attendance?** |
+|--------------------|------------------------|--------------------|
+| <Name>             | SRE Lead               | Yes/No             |
+| <Name>             | Developer Lead         | Yes/No             |
+| <Name>             | Incident Manager       | Yes/No             |
+| <Name>             | Chaos Engineer         | Yes/No             |
 
 ---
 
-## Impact
-- What services/customers were impacted?
-- Duration of the impact.
-- Business impact or any violated SLAs.
+## Incident Timing
+
+| **Field**                 | **Details**                         |
+|---------------------------|--------------------------------------|
+| Start Time                | <YYYY-MM-DD HH:MM>                  |
+| Detected By               | User-reported / Monitoring / Alert  |
+| Detection Time (TTD)      | <Minutes/Hours>                     |
+| Mitigation Time (TTM)     | <Minutes/Hours>                     |
+| Resolution Time (TTR)     | <Minutes/Hours>                     |
 
 ---
 
-## Timeline
-| **Time**       | **Event**                            |
-|----------------|--------------------------------------|
-| YYYY-MM-DD HH:MM | Description of what happened       |
-| YYYY-MM-DD HH:MM | Significant mitigation or fix step |
-| YYYY-MM-DD HH:MM | Final resolution and confirmation  |
+## Incident Timeline
 
----
-
-## Detection: How We Discovered the Incident
-- Who or what alerted the team (monitoring system, customer report)?
-- Key metrics, logs, or alerts involved in detection.
+| **Date/Time**             | **Who/What**        | **Action / Impact**               |
+|---------------------------|---------------------|-----------------------------------|
+| <YYYY-MM-DD HH:MM>        | <Person/Service>    | Description of event or impact   |
+| <YYYY-MM-DD HH:MM>        | <Person/Service>    | Next steps / Mitigation efforts  |
+| <YYYY-MM-DD HH:MM>        | <Person/Service>    | Resolution confirmation          |
 
 ---
 
 ## Root Causes
-- **Primary Cause:** Detailed root cause analysis.
-- **Contributing Factors:** Any other relevant issues.
+
+- **Primary Cause:**  
+  - Detailed analysis of the primary technical or procedural failure.
+- **Contributing Factors:**  
+  - Additional aspects that worsened the incident (e.g., dependencies).
 
 ---
 
 ## Diagnostic Steps
-- Tools, logs, or metrics analyzed.
-- Queries or processes executed for troubleshooting.
+
+- Logs, queries, or metrics investigated.
+- Monitoring tools and dashboards consulted.
+- Key queries or commands run during troubleshooting.
 
 ---
 
 ## Resolution and Mitigation
-- Immediate actions to restore service.
-- Permanent mitigation steps (e.g., code fixes).
-- Links to pull requests or relevant changes:
+
+- **Steps Taken to Resolve the Issue:**
+  - Immediate mitigation steps.
+  - Final resolution actions (e.g., code fixes or restarts).
+- **Pull Requests or Changes:**  
   - [PR #123](https://github.com/your-org/repo/pull/123)
 
 ---
 
 ## Lessons Learned
-- **What went well:** Things that helped mitigate or resolve the issue effectively.
-- **What didn’t go well:** Areas that could be improved.
-- **Improvement Opportunities:** Suggested improvements to prevent recurrence.
+
+- **What Worked Well:**  
+  - Effective practices that reduced downtime or impact.
+- **What Didn’t Work:**  
+  - Areas to improve.
+- **Improvements Identified:**  
+  - Opportunities for process or system enhancements.
 
 ---
 
 ## Action Items
-| **Action**                           | **Owner**         | **Due Date** |
-|--------------------------------------|-------------------|--------------|
-| Description of the action            | Team/Individual   | YYYY-MM-DD   |
-| Another follow-up task               | Team/Individual   | YYYY-MM-DD   |
+
+| **Action**                           | **Owner**         | **Due Date**   |
+|--------------------------------------|-------------------|----------------|
+| Describe follow-up task              | Team/Individual   | YYYY-MM-DD     |
+| Another task or improvement          | Team/Individual   | YYYY-MM-DD     |
 
 ---
 
 ## Appendix (Optional)
-- Raw logs, chat transcripts, or screenshots relevant to the incident.
+
+- Raw logs, screenshots, or chat transcripts related to the incident.
 
 ---
 
 ### Footer
-_This postmortem follows SRE best practices, focusing on continuous improvement through blameless analysis._
-
----
-
+_This postmortem follows SRE best practices to foster a blameless culture and continuous improvement._
