@@ -2,21 +2,34 @@
 
 ## Summary
 
-| **Field**                | **Details**                         |
-|--------------------------|--------------------------------------|
-| Incident Summary         | Brief summary of what happened.     |
-| Incident Number          | <Number>                            |
-| Incident Severity        | <Severity Level>                    |
-| Postmortem Date          | <YYYY-MM-DD>                        |
-| War-room Required?       | Yes/No                              |
-| SRE Lead                 | <Name>                              |
-| Developer Lead           | <Name>                              |
-| Incident Management Lead | <Name>                              |
-| Chaos Engineering Preventable? | Yes/No                       |
-| Recording Available?     | Yes/No (Link to recording)          |
-| Postmortem Lead          | <Name>                              |
-| **SLI/SLO Breached?**    | Yes/No                              |
-| **Error Budget Impact**  | <% of Budget Consumed>              |
+### Overview
+- **Incident Title:** <Incident Title>  
+- **Incident Number:** <Number>  
+- **Severity:** <Severity Level>  
+- **Postmortem Date:** <YYYY-MM-DD>  
+- **War-room Required?:** Yes/No  
+
+---
+
+### Key Roles
+| **Role**                  | **Name**                 |
+|---------------------------|--------------------------|
+| SRE Lead                  | <Name>                   |
+| Developer Lead            | <Name>                   |
+| Incident Management Lead  | <Name>                   |
+| Postmortem Lead           | <Name>                   |
+
+---
+
+### Chaos Engineering and Recordings
+- **Chaos Engineering Preventable?:** Yes/No  
+- **Recording Available?:** Yes/No (Link: [Recording](#))  
+
+---
+
+### SLI/SLO and Error Budget
+- **SLI/SLO Breached?:** Yes/No  
+- **Error Budget Impact:** <Percent Budget Consumed>  
 
 ---
 
