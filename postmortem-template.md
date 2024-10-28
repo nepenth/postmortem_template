@@ -1,5 +1,26 @@
 # Postmortem Report: **<Incident Title>**
 
+## Table of Contents
+- [Summary](#summary)
+  - [Overview](#overview)
+  - [Key Roles](#key-roles)
+  - [Chaos Engineering and Recordings](#chaos-engineering-and-recordings)
+  - [SLI/SLO and Error Budget](#sli-slo-and-error-budget)
+- [Postmortem Attendees](#postmortem-attendees)
+- [Incident Timing](#incident-timing)
+- [Incident Timeline](#incident-timeline)
+- [Root Causes](#root-causes)
+- [Diagnostic Steps](#diagnostic-steps)
+- [Resolution and Mitigation](#resolution-and-mitigation)
+- [Communications and Notifications](#communications-and-notifications)
+- [Lessons Learned](#lessons-learned)
+- [Open Questions](#open-questions)
+- [Retrospective Feedback](#retrospective-feedback)
+- [Action Items](#action-items)
+- [Appendix (Optional)](#appendix-optional)
+
+---
+
 ## Summary
 
 ### Overview
@@ -27,7 +48,7 @@
 
 ---
 
-### SLI/SLO and Error Budget
+### SLI SLO and Error Budget
 - **SLI/SLO Breached?:** Yes/No  
 - **Error Budget Impact:** <Percent Budget Consumed>  
 
