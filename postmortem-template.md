@@ -13,8 +13,10 @@
 | Developer Lead           | <Name>                              |
 | Incident Management Lead | <Name>                              |
 | Chaos Engineering Preventable? | Yes/No                       |
-| Recording Available?     | Yes/No (Link to recording, if any)  |
+| Recording Available?     | Yes/No (Link to recording)          |
 | Postmortem Lead          | <Name>                              |
+| **SLI/SLO Breached?**    | Yes/No                              |
+| **Error Budget Impact**  | <% of Budget Consumed>              |
 
 ---
 
@@ -78,6 +80,15 @@
 
 ---
 
+## Communications and Notifications
+
+- **Internal Communications:**  
+  - Updates shared with stakeholders or relevant teams.
+- **External Communications:**  
+  - Public-facing communications or status page updates.
+
+---
+
 ## Lessons Learned
 
 - **What Worked Well:**  
@@ -93,8 +104,16 @@
 
 | **Person**                           | **Question**      | **Answer**     |
 |--------------------------------------|-------------------|----------------|
-|         Name                         |         ????      |                |
-|         Name                         |         ????      |                |
+| Name                                 | ????              |                |
+| Name                                 | ????              |                |
+
+---
+
+## Retrospective Feedback
+
+- **Meta-Feedback on the Incident Management Process:**  
+  - How well did the process flow?
+  - What could be improved in the response process for future incidents?
 
 ---
 
